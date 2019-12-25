@@ -1,0 +1,23 @@
+{
+  "name": "@lromeraj/device-sp",
+  "version": "0.5.2",
+  "description": "A manager for serial port devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lromeraj/node-device-sp.git"
+  },
+  "author": "@lromeraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lromeraj/node-device-sp/issues"
+  },
+  "homepage": "https://github.com/lromeraj/node-device-sp#readme",
+  "dependencies": {
+    "@lromeraj/log": "git+https://github.com/lromeraj/node-log.git",
+    "bluetooth-serial-port": "^2.2.6"
+  }
+}
